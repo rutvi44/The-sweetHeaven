@@ -1,0 +1,41 @@
+article video{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 400px;
+    width: 700px;
+    border: 10px ridge rgb(113, 181, 4);
+}
+.caption 
+{
+    margin-left: 17%;
+    position: relative;
+    bottom: 56%;
+    left: 73px;
+    width: 53%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+.heading{
+    text-align: center;
+	color: #cc3b0bcc;
+	font-family: sans-serif;
+} 
+.leftaside {
+    margin-top: 0%;
+    height:455px;
+}
+.rightaside 
+{
+    margin-top: 0%;
+    height: 455px;
+}
+@media only screen and (max-width: 600px) {
+  article video{
+    height: 250px;
+    width: 500px;
+}
+}

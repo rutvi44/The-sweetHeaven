@@ -1,0 +1,170 @@
+body{
+    width: 1320px; 
+    border: 2px solid black; 
+    margin: 20px auto; 
+    padding: 20px; 
+    border-radius: 10px; 
+    background-image: linear-gradient(rgb(178, 193, 248), rgb(244, 170, 175));
+}
+main h2{
+    text-align: center;
+    color: #800d29;
+    font-style: italic;
+}
+h1{
+    float: right;
+    padding-right: 74%;
+    margin-top: 2%;
+    font-family: monospace;
+}
+.logo{
+    padding-left: 1%;
+}
+header{
+    margin-bottom: 5px;
+}
+nav{
+    text-align: center;
+    padding: 20px 0;
+    text-align: center;
+    border:1px solid #800d29;
+    margin-top: 2px;
+    font-family:  sans-serif;
+}
+nav a{
+    padding: 20px 100px;
+}
+nav ul{ 
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+nav>ul>li{ 
+    display: inline-block; 
+    position: relative;
+}
+nav ul li ul{
+    width: 200px;
+    background-color: rgb(237, 169, 140);
+    position: absolute;
+    z-index: 1;
+    text-align: left;
+    box-shadow: 0 0 5px #800d29;
+    margin-top:20px;
+}
+nav ul li ul li a{
+    color: black;
+    padding: 10px;
+    display: block;  
+}
+nav ul li ul li a:hover{
+    background-color: rgb(246, 188, 165);
+    font-weight: bold;
+}
+nav ul li ul{
+    display: none;
+}
+nav ul li:hover ul{
+    display: block;
+} 
+nav ul li ul li ul{
+    top: 0px;
+    left: 170px;
+}
+nav ul li ul li ul li{
+    display: none;
+}
+nav ul li ul li:hover ul li{
+    display: block;
+}
+nav ul li a:hover{
+    color: #800d29;
+    font-style: italic;
+}
+main aside div ul li a{
+    font-size: large;
+    line-height: 3em;
+    font-weight: bolder;
+    color: rgb(31, 3, 143);
+}
+main aside div ul li a:hover{
+    color: blueviolet;
+    font-style: italic;
+}
+h2{   
+    color: rgb(88, 2, 69);
+    font-size: none;
+    font-family: Cambria;
+}
+.leftaside {
+  float: left;
+  width: 19%;
+  height: 400px;
+  margin-top: 1%;
+  margin-right: 2%;
+  font-family: 'Segoe UI';
+  font-style: italic;
+  background-color: rgba(96, 93, 248, 0.586);
+  text-align: center;
+}
+.rightaside 
+{
+    float: right;
+    width: 19%;
+    height: 400px;
+    margin-top: 1%;
+    margin-left: 2%;
+    font-family: 'Franklin Gothic Medium';
+    font-style: italic;
+    background-color: rgba(96, 93, 248, 0.586);
+    text-align: center;
+}
+.mainimg{
+    margin-top: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    height: 400px;
+    width: 750px;
+}
+main footer{
+    text-align: center;
+    font-family: cursive;
+    border: 1px solid rgb(125, 3, 36);
+    width: 99%;
+    margin: 10px 5px;
+}
+/* @media only screen and (max-width: 300px) {
+    body {
+        padding: 2%;
+        width: 84%; 
+    }
+    nav a{
+        padding: 0 20px; 
+    }
+    .mainimg{
+        width: 200px;
+        height: 100px;
+    }
+    main{
+        width: 70%; 
+    }
+} */
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 2%;
+        width: 100%; 
+    }
+    nav a{
+        padding: 0 20px; 
+    }
+    .leftaside{
+        width: 100%;
+    }
+    .mainimg{
+        width: 500px;
+        height: 250px;
+    }
+    .rightaside{
+        width: 100%;
+    }
+}
